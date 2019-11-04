@@ -1,25 +1,31 @@
 ##PTB-TIR: A Thermal Infrared Pedestrian Tracking Benchmark (TMM19)
 This toolkit is used to evaluate the tracker on the thermal infrared pedestrian tracking benchmark, PTB-TIR.
+
 ##News
 * We correct some annotation mistakes, so the results are slightly different from the results of the paper. 
 * We evaluate more trackers on the benchmark and provide their results in the raw results.
+
 ##Download dataset and  raw results
 * You can download the overall **dataset** from [Baidu Pan](https://pan.baidu.com/s/1RHhvc7fOA9QF5uHJ2LNdQQ) or Goggle Drive or [Local](http://www.hezhenyu.cn/UpLoadFiles/dataset/tirsequences_new.rar).
 * You can download  the **raw results** of 27 trackers from [Baidu Pan](https://pan.baidu.com/s/184B11HWgSrrLEdR_gLbO1g) or [Google Drive](https://drive.google.com/open?id=1m1evJbTBpl_R4oAnsQQnV9NFpZ58J9DW) or [Local](http://www.hezhenyu.cn/UpLoadFiles/dataset/results_OPE_all.rar).
+
 ##Usage
 1. Download this toolkit and unzip it in your computer.
 2. Download and unzip the raw results and put it into the `results` folder of the toolkit.
 3. Download and unzip the dataset and put it into the toolkit.
 4. Now, you can run `run_evaluation.m` and `run_speed.m` to draw the result plots.
 5. You can configure `configTrackers.m` and then use `run_tracker_interface.m` to run your own tracker on the benchmark.
+
 ##Result's plots
 ![Alt text](./figs/results_OPE_all/results.jpg)
+
 ## Trackers and codes
 ### TIR trackers
 * **ECO-stir.**  Zhang L, et al. Synthetic data generation for end-to-end thermal infrared tracking, TIP, 2018. [[Github]](https://github.com/zhanglichao/generatedTIR_tracking)
 *  **MLSSNet.** Liu Q, et al, Learning Deep Multi-Level Similarity for Thermal Infrared Object Tracking, arXiv, 2019. [[Paper]](https://arxiv.org/abs/1906.03568)
 *  **HSSNet.**  Li X, et al, Hierarchical spatial-aware Siamese network for thermal infrared object tracking, KBS, 2019.[[Github]](https://github.com/QiaoLiuHit/HSSNet)
 *  **MCFTS.** Liu Q, et al, Deep convolutional neural networks for thermal infrared object tracking, KBS, 2017. [[Github]](https://github.com/QiaoLiuHit/MCFTS) 
+
 ###RGB trackers
 * **ECO.** Danelljan M, et al, ECO: efficient convolution operators for tracking, CVPR, 2017. [[Github]](https://github.com/martin-danelljan/ECO)
 *  **DeepSTRCF.** Li F et al, Learning spatial-temporal regularized correlation filters for visual tracking, CVPR, 2018. [[Github]](https://github.com/lifeng9472/STRCF)
@@ -41,6 +47,7 @@ This toolkit is used to evaluate the tracker on the thermal infrared pedestrian 
 *  **SVM.** Wang N, et al, Understanding and diagnosing visual tracking systems, ICCV, 2015. [[Project]](http://winsty.net/tracker_diagnose.html)
 *  **KCF.** Henriques, J, et al, High-speed tracking with kernelized correlation filters, TPAMI, 2015. [[Project]](http://www.robots.ox.ac.uk/~joao/circulant/)
 *  **DSiam.** Guo, Q, et al, Learning dynamic siamese network for visual object tracking, ICCV, 2017. [[Github]](https://github.com/tsingqguo/DSiam)
+
 ##Citation
 If you use this benchmark, please consider citing our paper.
 
@@ -53,6 +60,7 @@ If you use this benchmark, please consider citing our paper.
   DOI ={10.1109/TMM.2019.2932615}
 }
 ```
+
 ##Contact
 Feedbacks and comments are welcome! 
 Feel free to contact us via liuqiao.hit@gmail.com or liuqiao@stu.hit.edu.cn

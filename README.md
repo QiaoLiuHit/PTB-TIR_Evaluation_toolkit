@@ -1,6 +1,6 @@
 ## PTB-TIR: A Thermal Infrared Pedestrian Tracking Benchmark (TMM19)
 This toolkit is used to evaluate the tracker on the thermal infrared pedestrian tracking benchmark, PTB-TIR.
-[Paper](https://arxiv.org/abs/1801.05944)[Project](https://sites.google.com/view/ptb-tir)
+[Paper](https://arxiv.org/abs/1801.05944), [Project](https://sites.google.com/view/ptb-tir)
 ## News
 * [2019-11-4] We correct some annotation mistakes, so the results are slightly different from the results of the paper. 
 * [2019-11-4] We evaluate more trackers on the benchmark and provide their results in the raw results.

@@ -17,6 +17,8 @@ This toolkit is used to evaluate the tracker on the thermal infrared pedestrian 
 ![Alt text](./figs/results_OPE_all/results.jpg)
 ## Trackers and codes
 ### TIR trackers
+* **CMD-DiMP.** Sun J, et al. Unsupervised Cross-Modal Distillation for Thermal Infrared Tracking, ACM MM, 2021. [[Github]](https://github.com/zhanglichao/cmdTIRtracking)
+* **MMNet.**  Liu Q, et al. Multi-task driven feature model for thermal infrared tracking, AAAI, 2020. [[Github]](https://github.com/QiaoLiuHit/MMNet)
 * **ECO-stir.**  Zhang L, et al. Synthetic data generation for end-to-end thermal infrared tracking, TIP, 2018. [[Github]](https://github.com/zhanglichao/generatedTIR_tracking)
 *  **MLSSNet.** Liu Q, et al, Learning Deep Multi-Level Similarity for Thermal Infrared Object Tracking, arXiv, 2019. [[Paper]](https://arxiv.org/abs/1906.03568)
 *  **HSSNet.**  Li X, et al, Hierarchical spatial-aware Siamese network for thermal infrared object tracking, KBS, 2019.[[Github]](https://github.com/QiaoLiuHit/HSSNet)
